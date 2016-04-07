@@ -1,0 +1,520 @@
+/* line 1, ../scss/_scaffolding.scss */
+body {
+  font-family: "Lato", sans-serif;
+  font-size: 14px;
+  line-height: 1.42857;
+  color: #666666;
+  background-color: white;
+}
+
+/* line 9, ../scss/_scaffolding.scss */
+a {
+  color: #666666;
+}
+/* line 13, ../scss/_scaffolding.scss */
+a:hover, a:focus {
+  color: #25cbf5;
+  text-decoration: bold;
+}
+
+/* line 20, ../scss/_scaffolding.scss */
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+/* line 4, ../scss/_typography.scss */
+h1,
+h2,
+h3,
+h4 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  line-height: 1.1;
+  color: #666666;
+}
+
+/* line 12, ../scss/_typography.scss */
+h1,
+h2 {
+  text-transform: uppercase;
+}
+
+/* line 17, ../scss/_typography.scss */
+h1 {
+  font-size: 4em;
+}
+
+/* line 21, ../scss/_typography.scss */
+h2 {
+  font-size: 2em;
+}
+
+/* line 25, ../scss/_typography.scss */
+h3 {
+  font-size: 1.3em;
+}
+
+/* line 29, ../scss/_typography.scss */
+h4 {
+  font-size: 1em;
+}
+
+/* line 34, ../scss/_typography.scss */
+.home-text {
+  color: white;
+  text-transform: uppercase;
+  padding: 10px 0;
+  border-bottom: 3px solid rgba 255, 255, 255, 0.15;
+  margin: 20px 0;
+  letter-spacing: 1px;
+  font-weight: 200;
+}
+
+@media (min-width: 768px) {
+  /* line 45, ../scss/_typography.scss */
+  .home-h1 {
+    font-size: 4.5em;
+  }
+}
+/* line 49, ../scss/_typography.scss */
+.home-h1 {
+  color: #25cbf5;
+  font-size: 2.5em;
+  font-weight: 200;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+/* line 57, ../scss/_typography.scss */
+.home-h1 > span {
+  color: white;
+}
+
+/* line 61, ../scss/_typography.scss */
+.lead {
+  letter-spacing: 1px;
+  margin-bottom: 60px;
+}
+
+/* line 1, ../scss/_navbar.scss */
+.navbar-default {
+  background-color: white;
+  font-family: "Montserrat", sans-serif;
+  text-transform: uppercase;
+}
+
+/* line 7, ../scss/_navbar.scss */
+.navbar-default .navbar-brand {
+  font-weight: 700;
+  color: #666666;
+  font-size: 1.5em;
+}
+
+/* line 13, ../scss/_navbar.scss */
+.navbar-default .navbar-nav > li > a {
+  color: #666666;
+}
+/* line 16, ../scss/_navbar.scss */
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+  color: #25cbf5;
+}
+
+/* line 1, ../scss/_buttons.scss */
+.btn-theme, .btn-dark, .btn-cta, .btn-cta-o {
+  font-family: "Montserrat", sans-serif;
+  font-size: 0.8em;
+  font-weight: 200;
+  text-transform: uppercase;
+  border-radius: 0;
+  letter-spacing: 1px;
+  padding: 15px 30px;
+  -webkit-transition: value;
+  -moz-transition: value;
+  transition: all 200ms ease-in;
+}
+
+/* line 12, ../scss/_buttons.scss */
+.btn-dark {
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  background: rgba 0, 0, 0, 0.3;
+  color: #919190;
+}
+/* line 19, ../scss/_buttons.scss */
+.btn-dark:hover, .btn-dark:focus {
+  background: #000;
+  color: white;
+}
+
+/* line 25, ../scss/_buttons.scss */
+.btn-cta {
+  background-color: #25cbf5;
+  color: white;
+}
+/* line 31, ../scss/_buttons.scss */
+.btn-cta:hover, .btn-cta:foucs {
+  background-color: #0ab2dd;
+  color: white;
+}
+
+/* line 37, ../scss/_buttons.scss */
+.btn-cta-o {
+  color: white;
+  border: 1px solid white;
+  text-align: center;
+}
+/* line 44, ../scss/_buttons.scss */
+.btn-cta-o:hover, .btn-cta-o:focus {
+  background-color: white;
+  color: #353739;
+}
+
+/* line 1, ../scss/_forms.scss */
+.form-control {
+  border-radius: 0;
+  margin-bottom: 30px;
+}
+
+/* line 6, ../scss/_forms.scss */
+label {
+  font-weight: bold;
+}
+
+/* line 10, ../scss/_forms.scss */
+.form-control focus {
+  background: #f5f4f2;
+  border-color: #919190;
+}
+
+/* line 1, ../scss/_others.scss */
+#home {
+  background: url(../img/showcase-1.jpg);
+  padding: 160px 0;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-color: #666666;
+}
+
+/* line 11, ../scss/_others.scss */
+#cta-1 {
+  background-color: #f5f4f2;
+  padding: 40px 0;
+}
+
+/* line 16, ../scss/_others.scss */
+#testimonials {
+  background-color: #666666;
+  background: url(../img/showcase-3.jpg);
+  padding: 80px 0;
+}
+
+/* line 22, ../scss/_others.scss */
+#services {
+  background: url(../img/showcase-2.jpg);
+  padding: 80px 0;
+}
+
+/* line 27, ../scss/_others.scss */
+#facts {
+  background: url(../img/showcase-5.jpg);
+  padding: 80px 0;
+}
+
+/* line 32, ../scss/_others.scss */
+#cta-2 {
+  background-color: #25cbf5;
+  padding: 40px 0;
+}
+
+/* line 37, ../scss/_others.scss */
+#cta-3 {
+  background-color: #666666;
+  padding: 40px 0;
+}
+
+/* line 42, ../scss/_others.scss */
+#footer {
+  background-color: #666666;
+}
+
+/* line 46, ../scss/_others.scss */
+.section-padding {
+  padding-top: 60px;
+  padding-bottom: 50px;
+}
+
+/* line 51, ../scss/_others.scss */
+.section-heading {
+  margin-bottom: 40px;
+}
+
+/* line 58, ../scss/_others.scss */
+.color-reverse,
+.color-reverse h2,
+.color-reverse h3,
+.color-reverse .icon {
+  color: white;
+}
+
+/* line 63, ../scss/_others.scss */
+.color-reverse .icon:before,
+.color-reverse .icon:after {
+  border-bottom-color: white;
+}
+
+/* line 67, ../scss/_others.scss */
+.icon {
+  display: inline-block;
+  font-size: 1.3em;
+  line-height: 1.42857;
+  width: 130px;
+  margin: 0 auto;
+  position: relative;
+  color: #25cbf5;
+}
+
+/* line 78, ../scss/_others.scss */
+.icon:before,
+.icon:after {
+  display: inline-block;
+  content: "";
+  border-bottom: 1px solid #25cbf5;
+  position: absolute;
+  top: 10px;
+  width: 50px;
+}
+
+/* line 87, ../scss/_others.scss */
+.icon:before {
+  left: 0;
+}
+
+/* line 91, ../scss/_others.scss */
+.icon:after {
+  right: 0;
+}
+
+/* line 95, ../scss/_others.scss */
+.icon-bg {
+  color: white;
+}
+
+/* line 100, ../scss/_others.scss */
+.icon-bg:before,
+.icon-bg:after {
+  border-bottom-color: white;
+}
+
+/* line 104, ../scss/_others.scss */
+.about-col .fa {
+  width: 90px;
+  height: 90px;
+  line-height: 90px;
+  color: #919190;
+  border-radius: 50%;
+  background-color: #f5f4f2;
+  -webkit-transition: value;
+  -moz-transition: value;
+  transition: 0.7s ease-in-out;
+}
+
+/* line 114, ../scss/_others.scss */
+.about-col:hover .fa {
+  background-color: #25cbf5;
+  color: white;
+  -webkit-transform: value;
+  -moz-transform: value;
+  transform: rotateY(360deg);
+}
+
+@media (min-width: 768) {
+  /* line 121, ../scss/_others.scss */
+  .services-col {
+    text-align: left;
+  }
+}
+/* line 126, ../scss/_others.scss */
+.services-col {
+  color: #25cbf5;
+  text-align: center;
+}
+
+/* line 131, ../scss/_others.scss */
+.services-col h3 {
+  color: #25cbf5;
+  margin-top: 0;
+  font-weight: 200;
+  letter-spacing: 1px;
+  font-size: 1.75em;
+}
+
+/* line 139, ../scss/_others.scss */
+.services-col p {
+  color: #919190;
+  letter-spacing: 1px;
+  font-weight: 200;
+  line-height: 2;
+}
+
+/* line 146, ../scss/_others.scss */
+.services-col .fa {
+  width: 70px;
+  height: 70px;
+  line-height: 70px;
+  text-align: center;
+  color: white;
+  background-color: #25cbf5;
+  border-radius: 35px;
+  margin-bottom: 10px;
+  -webkit-transition: value;
+  -moz-transition: value;
+  transition: 0.7s ease-in-out;
+}
+
+/* line 158, ../scss/_others.scss */
+.services-col:hover .fa {
+  background-color: #25cbf5;
+  color: white;
+  -webkit-transform: value;
+  -moz-transform: value;
+  transform: rotateY(360deg);
+}
+
+/* line 164, ../scss/_others.scss */
+.contact-hours .fa {
+  color: #25cbf5;
+}
+
+/* line 168, ../scss/_others.scss */
+.social-channels .fa {
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  color: #919190;
+  background-color: #f5f4f2;
+  margin-bottom: 10px;
+}
+
+/* line 178, ../scss/_others.scss */
+.author {
+  color: #25cbf5;
+  font-size: 1.1em;
+}
+
+/* line 183, ../scss/_others.scss */
+.item-img-wrap {
+  position: relative;
+  text-align: center;
+  overflow: hidden;
+}
+
+/* line 189, ../scss/_others.scss */
+.item-img-wrap img {
+  -webkit-transition: value;
+  -moz-transition: value;
+  -ms-transition: value;
+  -o-transition: value;
+  transition: all 200ms linear;
+}
+
+/* line 193, ../scss/_others.scss */
+.item-img-overlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+}
+
+/* line 201, ../scss/_others.scss */
+.item-img-overlay span {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: url "../img/plus.png" no-repeat center center rgba 0, 0, 0, 0.6;
+  opacity: 0;
+  -webkit-transition: value;
+  -moz-transition: value;
+  transition: opacity 250ms linear;
+}
+
+/* line 212, ../scss/_others.scss */
+.item-img-wrap hover .item-img-overlay span {
+  opacity: 1;
+}
+
+/* line 216, ../scss/_others.scss */
+.item-img-wrap hover img {
+  -webkit-transform: value;
+  -moz-transform: value;
+  transform: scale 1.1;
+}
+
+/* line 220, ../scss/_others.scss */
+.blog-col-span {
+  color: #919190;
+  font-size: 0.9em;
+  display: inline-block;
+  margin-bottom: 20px;
+}
+
+/* line 227, ../scss/_others.scss */
+.scrollToTop {
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  font-weight: bold;
+  color: white;
+  font-size: 20px;
+  text-decoration: none;
+  position: fixed;
+  bottom: 0px;
+  right: 0px;
+  z-index: 999999;
+  display: none;
+  background: #25cbf5;
+  opacity: 0.5;
+  -webkit-transform: value;
+  -moz-transform: value;
+  transform: all 0.3s;
+}
+
+/* line 246, ../scss/_others.scss */
+.scrollToTop:hover {
+  text-decoration: none;
+  opacity: 1;
+  color: white;
+}
+
+/* line 252, ../scss/_others.scss */
+.parallax {
+  background-position: 0 0;
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  width: 100%;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+/* line 261, ../scss/_others.scss */
+.parallax-overlay {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url(../img/pattern.png);
+  background-repeat: repeat;
+  background-color: rgba 0, 0, 0, 0.3;
+}
+
+/* line 272, ../scss/_others.scss */
+.main-flex-slider {
+  overflow: hidden;
+}
